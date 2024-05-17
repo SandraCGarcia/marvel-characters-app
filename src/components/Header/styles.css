@@ -1,0 +1,24 @@
+.headerBar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px; }
+
+.favContainer {
+  display: flex;
+  align-items: center; }
+
+.headerHeartFavContainer {
+  display: flex;
+  align-items: center; }
+
+.headerHeartFav {
+  margin-right: 8px; }
+
+.favNumber {
+  color: white; }
+
+@media screen and (min-width: 768px) {
+  .headerBar {
+    padding: 16px 48px; } }

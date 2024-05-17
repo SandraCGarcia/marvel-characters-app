@@ -1,0 +1,39 @@
+.searcherBar {
+    margin-bottom: 50px;
+}
+
+.searcherBarContent {
+    position: relative;
+    display: flex;
+}
+
+input {
+    margin-left: 10px;
+    font-family: 'Roboto Condensed';
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.searcherBarText-active {
+    color: #000000;
+    text-transform: unset;
+}
+
+.searcherBarContent:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    bottom: -10px;
+    background-color: #000000;
+}
+
+.searcherBarResults {
+    font-size: 12px;
+    margin-top: 20px;
+}

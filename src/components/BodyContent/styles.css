@@ -1,0 +1,21 @@
+.content {
+    padding: 36px 16px;
+}
+
+.characterCardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .content {
+        padding: 60px 48px;
+    }
+
+    .characterCardList {
+        align-items: flex-start;
+        justify-content: unset;
+    }
+}

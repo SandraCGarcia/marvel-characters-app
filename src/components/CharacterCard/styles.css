@@ -1,0 +1,90 @@
+.characterCard {
+  padding: 0 0 15px 0;
+  width: 172.5px;
+}
+
+.cardImage {
+  position: relative;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+  transform: translateY(1px);
+}
+
+.cardInfoContaner:before {
+  content: "";
+  height: 5px;
+  background-color: #EC1D24;
+  width: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  animation: backColor 0.3s ease forwards;
+}
+
+.cardInfoContaner {
+  background-color: black;
+  clip-path: polygon(0 0, 100% 1%, 100% 0, 100% 80%, 93% 100%, 0 100%, 0 100%, 0 0);
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.characterCard:hover .cardInfoContaner:before {
+  animation: changeColor 0.3s ease forwards;
+  animation-iteration-count: unset;
+}
+
+.cardText {
+  color: white;
+  z-index: 999;
+}
+
+.cardHeartDefContainer {
+  z-index: 999;
+}
+
+.cardHeartDef {
+  width: 12px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .characterCard {
+    padding: 0 10px 15px 0;
+    width: 172.5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .characterCard {
+    padding: 0 15px 15px 0;
+  }
+
+  @keyframes changeColor {
+    from {
+      height: 5px;
+    }
+
+    to {
+      height: 56px;
+      background-color: #EC1D24;
+    }
+  }
+
+  @keyframes backColor {
+    from {
+      height: 56px;
+      background-color: #EC1D24;
+    }
+
+    to {
+      height: 5px;
+    }
+  }
+
+}
