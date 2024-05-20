@@ -47,19 +47,18 @@ npm start
 
 ## Estructura del proyecto
 
-marvel-characters-app/
-│
-├── public/             # Archivos públicos
-├── src/                # Código fuente
-│   ├── components/     # Componentes de React y archivos css
-│   ├── App.js          # Componente principal de la aplicación
-│   ├── index.js        # Punto de entrada de la aplicación
-│   ├── assets          # Recursos
-│   └── globalStyles    # Estilos globales de la App
-│
-├── .gitignore          # Archivos y carpetas ignoradas por Git
-├── package.json        # Dependencias y scripts del proyecto
-└── README.md           # Documentación del proyecto
+**marvel-characters-app/**
+**- public/**         # Archivos públicos
+**- src/**            # Código fuente
+- src/components/     # Componentes de React y archivos css
+- src/App.js          # Componente principal de la aplicación
+- src/index.js        # Punto de entrada de la aplicación
+- src/assets          # Recursos
+- src/globalStyles    # Estilos globales de la App
+
+**- .gitignore**      # Archivos y carpetas ignoradas por Git
+**- package.json**    # Dependencias y scripts del proyecto
+**- README.md**       # Documentación del proyecto
 
 ## Scripts Disponibles
 
