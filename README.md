@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Proyecto: App de personajes de Marvel en React y CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+Esta es una aplicación desarrollada en React y estilizada con CSS. La aplicación está diseñada para mostrar un listado de personajes de Marvel, proporcionando una experiencia de usuario interactiva y visualmente atractiva.
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Interfaz de usuario dinámica:** Utiliza componentes de React para construir una interfaz reactiva y modular.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Estilización con CSS:** Emplea CSS para diseñar y dar estilo a la aplicación, asegurando una apariencia moderna y consistente.
 
-### `npm test`
+**Funcionalidad principal:** Consiste en un buscador por nombre de personajes de Marvel donde se podrán guardar como favoritos cualquiera de ellos y también se podrán consultar los comics en los que sale dicho personaje.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Vista:** Es una app responsive, puede abrirse y visualizarse correctamente desde todos los dispositivos modernos.
 
-### `npm run build`
+**Compatibilidad:** Funciona en todos los navegadores modernos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React (versión 17 o superior)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (versión 18 o superior)
 
-### `npm run eject`
+- npm (versión 10.5.0 o superior)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clona el repositorio:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone [https://github.com/SandraCGarcia/marvel-characters-app.git](https://github.com/SandraCGarcia/marvel-characters-app.git)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Instala las dependencias:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Instala los iconos de React:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install react-icons
 
-### Code Splitting
+## Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Inicia la aplicación en modo de desarrollo:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Estructura del proyecto
 
-### Making a Progressive Web App
+marvel-characters-app/
+│
+├── public/             # Archivos públicos
+├── src/                # Código fuente
+│   ├── components/     # Componentes de React y archivos css
+│   ├── App.js          # Componente principal de la aplicación
+│   ├── index.js        # Punto de entrada de la aplicación
+│   ├── assets          # Recursos
+│   └── globalStyles    # Estilos globales de la App
+│
+├── .gitignore          # Archivos y carpetas ignoradas por Git
+├── package.json        # Dependencias y scripts del proyecto
+└── README.md           # Documentación del proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Scripts Disponibles
 
-### Advanced Configuration
+**npm start:** Inicia la aplicación en modo de desarrollo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**npm build:** Crea una compilación optimizada para producción.
 
-### Deployment
+**npm test:** Ejecuta las pruebas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contribuir
 
-### `npm run build` fails to minify
+- Haz un fork del proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Crea una nueva rama para tu funcionalidad (git checkout -b feature/nueva-funcionalidad).
+
+- Realiza tus cambios y haz commits descriptivos (git commit -m 'Agrega nueva funcionalidad').
+
+- Envía tus cambios a la rama principal (git push origin feature/nueva-funcionalidad).
+
+- Abre una solicitud de pull request en GitHub.
+
+## Contacto
+
+Para cualquier pregunta o comentario, puedes contactarme a través de sandra.gcanete@gmail.com o abrir una issue en el repositorio.
+
+### ¡Gracias por utilizar mi aplicación!
+

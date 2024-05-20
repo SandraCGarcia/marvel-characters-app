@@ -1,4 +1,3 @@
-@import "./variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -11,4 +10,9 @@ body {
 
 p {
     margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
