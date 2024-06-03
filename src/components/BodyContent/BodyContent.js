@@ -9,7 +9,7 @@ export const BodyContent = ({ dataCharacter }) => {
             <Searcher dataCharacter={dataCharacter} />
             <div className="characterCardList">
                 {dataCharacter.map((characterInfo) => (
-                    <CharacterCard characterInfo={characterInfo} />
+                    <CharacterCard characterInfo={characterInfo} key={characterInfo.id} />
                 ))}
             </div>
         </div>
